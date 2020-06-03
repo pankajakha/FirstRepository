@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook Test" parallel="tests"  thread-count="2">
+<listeners>
+
+		<listener class-name="TestCases.Customlisteners"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+
+	</listeners>
+ 
+  <test  name="Check Facebook1">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>  
+      <class name="TestCases.LoginTest"/>
+      
+      
+ 
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Check Facebook2">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>  
+     
+       <class name="TestCases.Searchfriends"/>
+      
+ 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

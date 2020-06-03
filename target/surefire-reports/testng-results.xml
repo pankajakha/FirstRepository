@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Facebook Test" duration-ms="51981" started-at="2020-05-22T11:38:17Z" finished-at="2020-05-22T11:39:09Z">
+    <groups>
+    </groups>
+    <test name="Check Facebook" duration-ms="51981" started-at="2020-05-22T11:38:17Z" finished-at="2020-05-22T11:39:09Z">
+      <class name="TestCases.LoginTest">
+        <test-method status="PASS" signature="dologin(java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@2d1ef81a]" name="dologin" duration-ms="12170" started-at="2020-05-22T17:08:17Z" data-provider="getdata" finished-at="2020-05-22T17:08:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pankajakha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swat92#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+      </class> <!-- TestCases.LoginTest -->
+      <class name="TestCases.UploadPhoto">
+        <test-method status="PASS" signature="updatephoto()[pri:0, instance:TestCases.UploadPhoto@5b12b668]" name="updatephoto" duration-ms="39762" started-at="2020-05-22T17:08:29Z" finished-at="2020-05-22T17:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatephoto -->
+      </class> <!-- TestCases.UploadPhoto -->
+    </test> <!-- Check Facebook -->
+  </suite> <!-- Facebook Test -->
+</testng-results>

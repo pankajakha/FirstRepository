@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="3" ignored="0" total="5" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Case : dologin---no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}  (Session info: chrome=83.0.4103.61)For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'PANKAJPC', ip: '192.168.1.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\pankaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}Session ID: b17d9a17a93bdf482e1f4cdef5e8eaf3*** Element info: {Using=xpath, value=//*[@id="email"]}]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href="C:\Users\pankaj\workspace\Pageobject\screenshot\dologin_Wed_Jun_03_10_43_08_IST_2020.jpg">Screenshot Captured</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href="C:\Users\pankaj\workspace\Pageobject\screenshot\dologin_Wed_Jun_03_10_43_08_IST_2020.jpg"><img src="C:\Users\pankaj\workspace\Pageobject\screenshot\dologin_Wed_Jun_03_10_43_08_IST_2020.jpg" height=400 width=400></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : friends---no such element: Unable to locate element: {"method":"xpath","selector":"//span/input[@type="text"][@class="inputtext"]"}  (Session info: chrome=83.0.4103.61)For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'PANKAJPC', ip: '192.168.1.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\pankaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}Session ID: b17d9a17a93bdf482e1f4cdef5e8eaf3*** Element info: {Using=xpath, value=//span/input[@type="text"][@class="inputtext"]}]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Wed_Jun_03_10_43_19_IST_2020.jpg">Screenshot Captured</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Wed_Jun_03_10_43_19_IST_2020.jpg"><img src="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Wed_Jun_03_10_43_19_IST_2020.jpg" height=400 width=400></a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Case : friends---no such element: Unable to locate element: {"method":"xpath","selector":"//span/input[@type="text"][@class="inputtext"]"}  (Session info: chrome=83.0.4103.61)For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'PANKAJPC', ip: '192.168.1.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\pankaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}Session ID: b17d9a17a93bdf482e1f4cdef5e8eaf3*** Element info: {Using=xpath, value=//span/input[@type="text"][@class="inputtext"]}]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Wed_Jun_03_10_43_29_IST_2020.jpg">Screenshot Captured</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Wed_Jun_03_10_43_29_IST_2020.jpg"><img src="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Wed_Jun_03_10_43_29_IST_2020.jpg" height=400 width=400></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Facebook Test" duration-ms="41362" started-at="2020-06-03T05:12:48Z" finished-at="2020-06-03T05:13:30Z">
+    <groups>
+    </groups>
+    <test name="Check Facebook1" duration-ms="9072" started-at="2020-06-03T05:12:48Z" finished-at="2020-06-03T05:12:57Z">
+      <class name="TestCases.LoginTest">
+        <test-method status="PASS" signature="dologin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@574b560f]" name="dologin" duration-ms="8974" started-at="2020-06-03T10:42:48Z" data-provider="getdata" finished-at="2020-06-03T10:42:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pankajakha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swat92#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+        <test-method status="SKIP" signature="dologin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@574b560f]" name="dologin" duration-ms="3" started-at="2020-06-03T10:42:57Z" data-provider="getdata" finished-at="2020-06-03T10:42:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nitsysharma03@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7097097.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exceptionat TestCases.LoginTest.dologin(LoginTest.java:41)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Check Facebook1 -->
+    <test name="Check Facebook2" duration-ms="32256" started-at="2020-06-03T05:12:57Z" finished-at="2020-06-03T05:13:30Z">
+      <class name="TestCases.Searchfriends">
+        <test-method status="FAIL" signature="dologin(java.lang.String, java.lang.String)[pri:1, instance:TestCases.Searchfriends@44a7bfbc]" name="dologin" duration-ms="10542" started-at="2020-06-03T10:42:57Z" data-provider="getdata2" finished-at="2020-06-03T10:43:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pankajakha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swat92#]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}  (Session info: chrome=83.0.4103.61)For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'PANKAJPC', ip: '192.168.1.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\pankaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}Session ID: b17d9a17a93bdf482e1f4cdef5e8eaf3*** Element info: {Using=xpath, value=//*[@id="email"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}  (Session info: chrome=83.0.4103.61)For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'PANKAJPC', ip: '192.168.1.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\pankaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}Session ID: b17d9a17a93bdf482e1f4cdef5e8eaf3*** Element info: {Using=xpath, value=//*[@id="email"]}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)at org.openqa.selenium.By$ByXPath.findElement(By.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)at Way2auto.Pageobject.page.type(page.java:117)at Way2auto.Pageobject.Loginpage.login(Loginpage.java:23)at TestCases.Searchfriends.dologin(Searchfriends.java:45)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case : dologin---no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="email"]"}  (Session info: chrome=83.0.4103.61)For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'PANKAJPC', ip: '192.168.1.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\pankaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}Session ID: b17d9a17a93bdf482e1f4cdef5e8eaf3*** Element info: {Using=xpath, value=//*[@id="email"]}]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href="C:\Users\pankaj\workspace\Pageobject\screenshot\dologin_Wed_Jun_03_10_43_08_IST_2020.jpg">Screenshot Captured</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href="C:\Users\pankaj\workspace\Pageobject\screenshot\dologin_Wed_Jun_03_10_43_08_IST_2020.jpg"><img src="C:\Users\pankaj\workspace\Pageobject\screenshot\dologin_Wed_Jun_03_10_43_08_IST_2020.jpg" height=400 width=400></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+        <test-method status="FAIL" signature="friends(java.lang.String)[pri:2, instance:TestCases.Searchfriends@44a7bfbc]" name="friends" duration-ms="10030" started-at="2020-06-03T10:43:09Z" data-provider="getvalue" finished-at="2020-06-03T10:43:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[par]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span/input[@type="text"][@class="inputtext"]"}  (Session info: chrome=83.0.4103.61)For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'PANKAJPC', ip: '192.168.1.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\pankaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}Session ID: b17d9a17a93bdf482e1f4cdef5e8eaf3*** Element info: {Using=xpath, value=//span/input[@type="text"][@class="inputtext"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span/input[@type="text"][@class="inputtext"]"}  (Session info: chrome=83.0.4103.61)For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'PANKAJPC', ip: '192.168.1.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\pankaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}Session ID: b17d9a17a93bdf482e1f4cdef5e8eaf3*** Element info: {Using=xpath, value=//span/input[@type="text"][@class="inputtext"]}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)at org.openqa.selenium.By$ByXPath.findElement(By.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)at Way2auto.Pageobject.page.type(page.java:117)at Way2auto.Pageobject.ProfilePage.searchresults(ProfilePage.java:62)at TestCases.Searchfriends.friends(Searchfriends.java:22)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case : friends---no such element: Unable to locate element: {"method":"xpath","selector":"//span/input[@type="text"][@class="inputtext"]"}  (Session info: chrome=83.0.4103.61)For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'PANKAJPC', ip: '192.168.1.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\pankaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}Session ID: b17d9a17a93bdf482e1f4cdef5e8eaf3*** Element info: {Using=xpath, value=//span/input[@type="text"][@class="inputtext"]}]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Wed_Jun_03_10_43_19_IST_2020.jpg">Screenshot Captured</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Wed_Jun_03_10_43_19_IST_2020.jpg"><img src="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Wed_Jun_03_10_43_19_IST_2020.jpg" height=400 width=400></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- friends -->
+        <test-method status="FAIL" signature="friends(java.lang.String)[pri:2, instance:TestCases.Searchfriends@44a7bfbc]" name="friends" duration-ms="10045" started-at="2020-06-03T10:43:19Z" data-provider="getvalue" finished-at="2020-06-03T10:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[quw]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span/input[@type="text"][@class="inputtext"]"}  (Session info: chrome=83.0.4103.61)For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'PANKAJPC', ip: '192.168.1.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\pankaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}Session ID: b17d9a17a93bdf482e1f4cdef5e8eaf3*** Element info: {Using=xpath, value=//span/input[@type="text"][@class="inputtext"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span/input[@type="text"][@class="inputtext"]"}  (Session info: chrome=83.0.4103.61)For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'PANKAJPC', ip: '192.168.1.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\pankaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}Session ID: b17d9a17a93bdf482e1f4cdef5e8eaf3*** Element info: {Using=xpath, value=//span/input[@type="text"][@class="inputtext"]}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)at org.openqa.selenium.By$ByXPath.findElement(By.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)at Way2auto.Pageobject.page.type(page.java:117)at Way2auto.Pageobject.ProfilePage.searchresults(ProfilePage.java:62)at TestCases.Searchfriends.friends(Searchfriends.java:22)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case : friends---no such element: Unable to locate element: {"method":"xpath","selector":"//span/input[@type="text"][@class="inputtext"]"}  (Session info: chrome=83.0.4103.61)For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'PANKAJPC', ip: '192.168.1.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\pankaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}Session ID: b17d9a17a93bdf482e1f4cdef5e8eaf3*** Element info: {Using=xpath, value=//span/input[@type="text"][@class="inputtext"]}]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Wed_Jun_03_10_43_29_IST_2020.jpg">Screenshot Captured</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Wed_Jun_03_10_43_29_IST_2020.jpg"><img src="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Wed_Jun_03_10_43_29_IST_2020.jpg" height=400 width=400></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- friends -->
+      </class> <!-- TestCases.Searchfriends -->
+    </test> <!-- Check Facebook2 -->
+  </suite> <!-- Facebook Test -->
+</testng-results>
