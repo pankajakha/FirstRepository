@@ -4,6 +4,7 @@ Way2auto\Pageobject\ProfilePage.class
 Way2auto\Pageobject\Sendemail.class
 Way2auto\Pageobject\MonitoringMail$SMTPAuthenticator.class
 Way2auto\Pageobject\MonitoringMail.class
+Way2auto\Pageobject\Topnavigation.class
 Way2auto\Pageobject\HomePage.class
 Way2auto\Pageobject\page.class
 Way2auto\Pageobject\ExcelReader.class

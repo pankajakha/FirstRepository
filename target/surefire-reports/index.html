@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Facebook_Test">
-              <span class="suite-name border-passed">Facebook Test</span>
+              <span class="suite-name border-failed">Facebook Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Facebook_Test">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,35 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,  1 skipped,  3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Facebook_Test" class="hide-methods failed suite-Facebook_Test"> (hide)</a> <!-- hide-methods failed suite-Facebook_Test -->
+                      <a href="#" panel-name="suite-Facebook_Test" class="show-methods failed suite-Facebook_Test"> (show)</a> <!-- show-methods failed suite-Facebook_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-Facebook_Test">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Facebook_Test" title="TestCases.Searchfriends" hash-for-method="friends(quw)">friends(quw)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Facebook_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Facebook_Test" class="hide-methods skipped suite-Facebook_Test"> (hide)</a> <!-- hide-methods skipped suite-Facebook_Test -->
+                      <a href="#" panel-name="suite-Facebook_Test" class="show-methods skipped suite-Facebook_Test"> (show)</a> <!-- show-methods skipped suite-Facebook_Test -->
+                    </span>
+                    <div class="method-list-content skipped suite-Facebook_Test">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Facebook_Test" title="TestCases.LoginTest" hash-for-method="dologin(nitsysharma03@gmail.com, 7097097.0, N)">dologin(nitsysharma03@gmail.com, 7097097.0, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Facebook_Test -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +130,17 @@
                     <div class="method-list-content passed suite-Facebook_Test">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Facebook_Test" title="TestCases.LoginTest" hash-for-method="dologin(pankajakha@gmail.com, swat92#)">dologin(pankajakha@gmail.com, swat92#)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Facebook_Test" title="TestCases.LoginTest" hash-for-method="dologin(pankajakha@gmail.com, swat92#, Y)">dologin(pankajakha@gmail.com, swat92#, Y)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Facebook_Test" title="TestCases.UploadPhoto" hash-for-method="updatephoto">updatephoto</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Facebook_Test" title="TestCases.Searchfriends" hash-for-method="dologin(pankajakha@gmail.com, swat92#)">dologin(pankajakha@gmail.com, swat92#)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Facebook_Test" title="TestCases.Searchfriends" hash-for-method="friends(par)">friends(par)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Facebook_Test -->
@@ -122,21 +155,47 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Facebook_Test" class="panel Facebook_Test">
-          <div class="suite-Facebook_Test-class-passed">
+          <div class="suite-Facebook_Test-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestCases.UploadPhoto</span>
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.Searchfriends</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="updatephoto">
-                  </a> <!-- updatephoto -->
-                  <span class="method-name">updatephoto</span>
+                  <a name="friends(quw)">
+                  </a> <!-- friends(quw) -->
+                  <span class="method-name">friends</span>
+                  <span class="parameters">(quw)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at TestCases.Searchfriends.friends(Searchfriends.java:34)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Facebook_Test-class-passed -->
+          </div> <!-- suite-Facebook_Test-class-failed -->
+          <div class="suite-Facebook_Test-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dologin(nitsysharma03@gmail.com, 7097097.0, N)">
+                  </a> <!-- dologin(nitsysharma03@gmail.com, 7097097.0, N) -->
+                  <span class="method-name">dologin</span>
+                  <span class="parameters">(nitsysharma03@gmail.com, 7097097.0, N)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping this exception
+	at TestCases.LoginTest.dologin(LoginTest.java:41)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Facebook_Test-class-skipped -->
           <div class="suite-Facebook_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -145,10 +204,34 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="dologin(pankajakha@gmail.com, swat92#, Y)">
+                  </a> <!-- dologin(pankajakha@gmail.com, swat92#, Y) -->
+                  <span class="method-name">dologin</span>
+                  <span class="parameters">(pankajakha@gmail.com, swat92#, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Facebook_Test-class-passed -->
+          <div class="suite-Facebook_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Searchfriends</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
                   <a name="dologin(pankajakha@gmail.com, swat92#)">
                   </a> <!-- dologin(pankajakha@gmail.com, swat92#) -->
                   <span class="method-name">dologin</span>
                   <span class="parameters">(pankajakha@gmail.com, swat92#)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="friends(par)">
+                  </a> <!-- friends(par) -->
+                  <span class="method-name">friends</span>
+                  <span class="parameters">(par)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -167,12 +250,18 @@
     &lt;listener class-name=&quot;TestCases.Customlisteners&quot;/&gt;
     &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test verbose=&quot;0&quot; name=&quot;Check Facebook&quot;&gt;
+  &lt;test verbose=&quot;0&quot; name=&quot;Check Facebook1&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestCases.LoginTest&quot;/&gt;
-      &lt;class name=&quot;TestCases.UploadPhoto&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Check Facebook --&gt;
+  &lt;/test&gt; &lt;!-- Check Facebook1 --&gt;
+  &lt;test verbose=&quot;0&quot; name=&quot;Check Facebook2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.Searchfriends&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Check Facebook2 --&gt;
 &lt;/suite&gt; &lt;!-- Facebook Test --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -184,7 +273,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Check Facebook (2 classes)</span>
+                <span class="test-name">Check Facebook1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Check Facebook2 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -210,20 +302,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'updatephoto')
-data.setCell(0, 2, 'TestCases.UploadPhoto')
-data.setCell(0, 3, 39762);
+data.setCell(0, 1, 'dologin')
+data.setCell(0, 2, 'TestCases.LoginTest')
+data.setCell(0, 3, 25220);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'dologin')
-data.setCell(1, 2, 'TestCases.LoginTest')
-data.setCell(1, 3, 12170);
+data.setCell(1, 1, 'friends')
+data.setCell(1, 2, 'TestCases.Searchfriends')
+data.setCell(1, 3, 10232);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'dologin')
+data.setCell(2, 2, 'TestCases.Searchfriends')
+data.setCell(2, 3, 8240);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'friends')
+data.setCell(3, 2, 'TestCases.Searchfriends')
+data.setCell(3, 3, 2537);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'dologin')
+data.setCell(4, 2, 'TestCases.LoginTest')
+data.setCell(4, 3, 0);
 window.suiteTableData['Facebook_Test']= { tableData: data, tableDiv: 'times-div-Facebook_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 51 seconds</span>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
               <div id="times-div-Facebook_Test">
               </div> <!-- times-div-Facebook_Test -->
             </div> <!-- times-div -->
@@ -234,6 +338,16 @@ return data;
             <span class="header-content">Reporter output for Facebook Test</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">friends(quw)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case : friends---The following asserts failed:
+	expected [true] but found [false]</span>
+                <span class="reporter-method-output"><a target="_blank" href="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Thu_Jun_04_17_28_18_IST_2020.jpg">Screenshot Captured</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Thu_Jun_04_17_28_18_IST_2020.jpg"><img src="C:\Users\pankaj\workspace\Pageobject\screenshot\friends_Thu_Jun_04_17_28_18_IST_2020.jpg" height=400 width=400></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Facebook_Test" class="panel">
@@ -251,15 +365,29 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">dologin(pankajakha@gmail.com, swat92#)</span>
+                <span class="method-name">dologin(pankajakha@gmail.com, swat92#, Y)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dologin(nitsysharma03@gmail.com, 7097097.0, N)</span>
+                <span class="method-start">25222 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">TestCases.UploadPhoto</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestCases.Searchfriends</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">updatephoto</span>
-                <span class="method-start">12173 ms</span>
+                <span class="method-name">dologin(pankajakha@gmail.com, swat92#)</span>
+                <span class="method-start">25303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">friends(par)</span>
+                <span class="method-start">33546 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">friends(quw)</span>
+                <span class="method-start">36084 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

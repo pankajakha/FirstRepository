@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Facebook Test]">
+  <listeners>
+    <listener class-name="TestCases.Customlisteners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test verbose="0" name="Check Facebook1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.LoginTest">
+        <methods>
+          <include name="dologin" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- TestCases.LoginTest -->
+    </classes>
+  </test> <!-- Check Facebook1(failed) -->
+  <test verbose="0" name="Check Facebook2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.Searchfriends">
+        <methods>
+          <include name="friends" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- TestCases.Searchfriends -->
+    </classes>
+  </test> <!-- Check Facebook2(failed) -->
+</suite> <!-- Failed suite [Facebook Test] -->

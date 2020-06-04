@@ -1,6 +1,8 @@
+TestCases\Customlisteners.class
+TestCases\Searchfriends.class
+TestCases\UploadPhoto.class
+TestCases\topnavigationtest.class
 TestCases\LoginTest.class
 TestCases\BaseTest.class
-TestCases\Customlisteners.class
-TestCases\UploadPhoto.class
 Way2auto\Pageobject\AppTest.class
 TestCases\test.class

@@ -33,8 +33,8 @@ public class LoginTest extends BaseTest {
    	//   topnav.logout();
 	//	ProfilePage pp = new ProfilePage();
 	//	 pp.friendssearch();
-	//	 Topnavigation topnav= new Topnavigation();
-	//	 topnav.logout();
+	 Topnavigation topnav= new Topnavigation();
+		 topnav.logout();
 		}
 		else 
 		{

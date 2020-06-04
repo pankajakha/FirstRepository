@@ -1,0 +1,2 @@
+INFO    2020-06-04 17:24:19,322 [main] page  - clicking on element located by username_xpath typed the value as pankajakha@gmail.com
+INFO    2020-06-04 17:24:19,503 [main] page  - clicking on element located by pasword_xpath typed the value as swat92#
