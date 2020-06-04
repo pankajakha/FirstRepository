@@ -15,14 +15,4 @@
       </class> <!-- TestCases.LoginTest -->
     </classes>
   </test> <!-- Check Facebook1(failed) -->
-  <test name="Check Facebook2(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="TestCases.Searchfriends">
-        <methods>
-          <include name="friends" invocation-numbers="1"/>
-        </methods>
-      </class> <!-- TestCases.Searchfriends -->
-    </classes>
-  </test> <!-- Check Facebook2(failed) -->
 </suite> <!-- Failed suite [Facebook Test] -->
