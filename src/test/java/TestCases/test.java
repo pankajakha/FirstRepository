@@ -15,6 +15,7 @@ public class test {
 		HomePage h =p.login("pankajakha@gmail.com", "swat92#");
 		ProfilePage p2= h.profilenav();
 		p2.updatephoto();
+		System.out.println("Testing git");
         //new Loginpage().login("pankajakha@gmail.com", "swat92#").profilenav().updatephoto();
 	}
 
