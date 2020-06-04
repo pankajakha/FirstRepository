@@ -20,8 +20,7 @@
     <classes>
       <class name="TestCases.Searchfriends">
         <methods>
-          <include name="dologin" invocation-numbers="0"/>
-          <include name="friends" invocation-numbers="0 1"/>
+          <include name="friends" invocation-numbers="1"/>
         </methods>
       </class> <!-- TestCases.Searchfriends -->
     </classes>

@@ -1,10 +1,10 @@
-INFO    2020-06-04 17:27:45,224 [main] page  - clicking on element located by username_xpath typed the value as pankajakha@gmail.com
-INFO    2020-06-04 17:27:45,433 [main] page  - clicking on element located by pasword_xpath typed the value as swat92#
-INFO    2020-06-04 17:27:54,077 [main] page  - clicking on element located by topnavg_icon_xpath
-INFO    2020-06-04 17:27:57,481 [main] page  - clicking on element located by Logout_xpath
-INFO    2020-06-04 17:27:57,765 [main] page  - clicking on element located by username_xpath typed the value as pankajakha@gmail.com
-INFO    2020-06-04 17:27:57,898 [main] page  - clicking on element located by pasword_xpath typed the value as swat92#
-INFO    2020-06-04 17:28:04,685 [main] page  - clicking on element located by profilepage_xpath
-INFO    2020-06-04 17:28:05,804 [main] page  - clicking on element located by Friends_xpath
-INFO    2020-06-04 17:28:07,511 [main] page  - clicking on element located by search_friends_xpath typed the value as par
-INFO    2020-06-04 17:28:08,453 [main] page  - clicking on element located by search_friends_xpath typed the value as quw
+INFO    2020-06-04 17:40:25,923 [main] page  - clicking on element located by username_xpath typed the value as pankajakha@gmail.com
+INFO    2020-06-04 17:40:26,116 [main] page  - clicking on element located by pasword_xpath typed the value as swat92#
+INFO    2020-06-04 17:40:28,407 [main] page  - clicking on element located by topnavg_icon_xpath
+INFO    2020-06-04 17:40:33,439 [main] page  - clicking on element located by Logout_xpath
+INFO    2020-06-04 17:40:35,505 [main] page  - clicking on element located by username_xpath typed the value as pankajakha@gmail.com
+INFO    2020-06-04 17:40:35,815 [main] page  - clicking on element located by pasword_xpath typed the value as swat92#
+INFO    2020-06-04 17:40:43,539 [main] page  - clicking on element located by profilepage_xpath
+INFO    2020-06-04 17:40:47,622 [main] page  - clicking on element located by Friends_xpath
+INFO    2020-06-04 17:40:48,655 [main] page  - clicking on element located by search_friends_xpath typed the value as par
+INFO    2020-06-04 17:40:49,221 [main] page  - clicking on element located by search_friends_xpath typed the value as quw
